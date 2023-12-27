@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 
-    images: {
-    
-    },
+  images: {
+    domains: ['lh3.googleusercontent.com']
+  },
   
     async redirects() {
       return [
