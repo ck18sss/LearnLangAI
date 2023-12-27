@@ -25,8 +25,8 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = 'AI Quote Finder - Semantic search for all your books',
-  description = 'Search any text part across many of the best books in the world.',
+  title = 'LearnLang AI - Translate foreign language books',
+  description = 'Translate foreign language books to help you learn any language.',
   image = '/thumbnail.png',
   icons = '/favicon.ico',
   noIndex = false,
@@ -54,10 +54,10 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: '@moritzw42',
+      creator: '@ck18sss',
     },
     icons,
-    metadataBase: new URL('https://ai-quote-finder.vercel.app/'),
+    metadataBase: new URL('https://learn-lang-ai.vercel.app/'),
     // themeColor: '#FFF',
     ...(noIndex && {
       robots: {
